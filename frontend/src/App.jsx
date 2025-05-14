@@ -80,7 +80,7 @@ function App() {
         <Route path='/forgot-password' element={<RedirectAuthenticatedUser>
           <ForgotPasswordPage />
         </RedirectAuthenticatedUser>} />
-        <Route path='/reset-password/ :token' element={<RedirectAuthenticatedUser>
+        <Route path='/reset-password/:token' element={<RedirectAuthenticatedUser>
           <ResetPasswordPage />
         </RedirectAuthenticatedUser>} />
       </Routes>
