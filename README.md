@@ -1,6 +1,4 @@
-Here's a polished and professional version of your `README.md`, styled for readability and ready to use on GitHub:
 
----
 
 ````markdown
 # 🔐 MERN Advanced Authentication System
